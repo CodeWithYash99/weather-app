@@ -1,0 +1,153 @@
+.weather-container {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  padding: 30px;
+  width: 80%;
+  min-height: 80vh;
+  border-radius: 8px;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45),
+    25px 0 20px -20px rgba(0, 0, 0, 0.45),
+    0px 25px 20px -20px rgba(0, 0, 0, 0.45),
+    -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+.weather-report-container {
+  width: 100%;
+}
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-report-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.city-name h2 {
+  color: #2fcebb;
+  font-family: "arial black";
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.date span {
+  color: #587572;
+  font-family: "Comic Sans MS";
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.temperature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.temperature h1 {
+  color: #f3640b;
+  font-family: "Andalé Mono";
+  font-size: 36px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.temperature p {
+  color: #f2823d;
+  font-family: "Comic Sans MS";
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.wind-humidity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.wind, .humidity {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+}
+
+.wind h3, .humidity h3 {
+    color: #de2d56;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    margin: 0 0 10px 0;
+}
+
+.wind p, .humidity p {
+    color: #85142f;
+    font-family: 'Impact';
+    font-size: 22px;
+    margin: 0;
+}
+
+.visibility {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+}
+
+.visibility h2 {
+    color: #2fcebb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    font-size: 28px;
+    margin: 0 0 10px 0;
+}
+
+.visibility p {
+    color: #de2d56;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0;
+} 
+
+.sunrise-sunset {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.sunrise, .sunset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+}
+
+.sunrise h3, .sunset h3 {
+    color: #ed3636;
+    font-family: 'Helvetica';
+    font-size: 28px;
+    margin: 0 0 10px 0;
+}
+
+.sunrise p, .sunset p{
+    color: #85142f;
+    font-family: 'Trebuchet MS';
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}

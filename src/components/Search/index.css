@@ -1,0 +1,31 @@
+.search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+}
+
+.search-container input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 0 20px;
+    width: 70%;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.search-container button {
+    background-color: aquamarine;
+    color: rgb(235, 18, 29);
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    width: 200px;
+    height: 52px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
